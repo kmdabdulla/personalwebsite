@@ -4033,7 +4033,7 @@ input[type=button].btn-block {
 }
 
 .icon-bar{
-background-color: #E0FFFF !important;
+   color: #E0FFFF !important;
 }
 
 @media (max-width: 575.98px) {

@@ -4015,7 +4015,6 @@ input[type=button].btn-block {
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
-  border-color: #17a2b8;
   border-radius: 0.25rem;
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
@@ -4032,9 +4031,10 @@ input[type=button].btn-block {
   background-size: 100% 100%;
 }
 
-/*.icon-bar{
-   color: #E0FFFF !important;
-}*/
+.navbar-toggler-icon:hover, .navbar-toggler-icon:focus {
+  text-decoration: none;
+  color: #E0FFFF;
+}
 
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
@@ -4282,10 +4282,10 @@ input[type=button].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #17a2b8;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: #E0FFFF;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5);

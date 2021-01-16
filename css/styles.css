@@ -4015,10 +4015,12 @@ input[type=button].btn-block {
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
+  border-color: #17a2b8;
   border-radius: 0.25rem;
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
+  color:#E0FFFF;
 }
 
 .navbar-toggler-icon {
@@ -4029,7 +4031,7 @@ input[type=button].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
-  color: #17a2b8
+  color: #17a2b8;
 }
 
 @media (max-width: 575.98px) {
@@ -10022,7 +10024,7 @@ p.lead {
   /*text-transform: uppercase;*/
 }
 #sideNav .navbar-toggler:focus {
-  outline-color: cyan;
+  outline-color: #E0FFFF;
 }
 
 @media (min-width: 992px) {

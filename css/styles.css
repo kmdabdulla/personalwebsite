@@ -4017,7 +4017,6 @@ input[type=button].btn-block {
   border: 1px solid transparent;
   border-color: #17a2b8;
   border-radius: 0.25rem;
-  color: #17a2b8;
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
@@ -4030,9 +4029,8 @@ input[type=button].btn-block {
   height: 1.5em;
   vertical-align: middle;
   content: "";
-  background: no-repeat center center;
+  background: no-repeat center center #17a2b8;
   background-size: 100% 100%;
-  color: #17a2b8;
 }
 
 @media (max-width: 575.98px) {

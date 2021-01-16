@@ -4020,7 +4020,6 @@ input[type=button].btn-block {
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
-  color:#E0FFFF;
 }
 
 .navbar-toggler-icon {
@@ -4029,7 +4028,7 @@ input[type=button].btn-block {
   height: 1.5em;
   vertical-align: middle;
   content: "";
-  background: no-repeat center center;
+  background: no-repeat center center #E0FFFF;
   background-size: 100% 100%;
 }
 

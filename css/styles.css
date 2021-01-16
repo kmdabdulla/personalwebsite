@@ -4028,8 +4028,12 @@ input[type=button].btn-block {
   height: 1.5em;
   vertical-align: middle;
   content: "";
-  background: no-repeat center center #E0FFFF;
+  background: no-repeat center center;
   background-size: 100% 100%;
+}
+
+.icon-bar{
+background-color: #E0FFFF !important;
 }
 
 @media (max-width: 575.98px) {
